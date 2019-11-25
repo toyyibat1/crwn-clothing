@@ -53,7 +53,7 @@ handleChange = event => {
     render(){
         const {displayName, email, password, confirmPassword} = this.state;
         return(
-            <div className='sign-up'>
+            <div className='sign-in'>
                 <h2 className='title'>I do not have an Account</h2>
                 <span>Sign Up with your email and password</span>
                 <form className='sign-up-form' onSubmit={this.handleSubmit}>
